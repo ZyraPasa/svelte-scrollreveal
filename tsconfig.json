@@ -1,0 +1,6 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+
+  "include": ["src/**/*", "ragemp-lib/*"],
+  "exclude": ["node_modules/*", "__sapper__/*", "public/*"]
+}
